@@ -1,33 +1,8 @@
 {
   "frequencies_ranges": [
     {
-      "start": 26000000,
-      "stop": 28000000,
-      "modulation": "am"
-    },
-    {
-      "start": 28000000,
-      "stop": 30000000,
-      "modulation": "fm"
-    },
-    {
-      "start": 50000000,
-      "stop": 52000000,
-      "modulation": "fm"
-    },
-    {
-      "start": 108000000,
-      "stop": 144000000,
-      "modulation": "am"
-    },
-    {
-      "start": 144000000,
-      "stop": 146000000,
-      "modulation": "fm"
-    },
-    {
-      "start": 430000000,
-      "stop": 440000000,
+      "start": 460000000,
+      "stop": 470000000,
       "modulation": "fm"
     }
   ],
@@ -35,18 +10,6 @@
     {
       "start": 28799000,
       "stop": 28801000
-    },
-    {
-      "start": 115199000,
-      "stop": 115201000
-    },
-    {
-      "start": 438470000,
-      "stop": 438490000
-    },
-    {
-      "start": 439000000,
-      "stop": 439010000
     }
   ],
   "device": {
@@ -54,7 +17,7 @@
     "tuner_gain": 0
   },
   "scanning": {
-    "noise_level": -7.9,
+    "noise_level": -6.9,
     "bandwidth": 2000000,
     "samples": 10240,
     "fft": 16384
@@ -64,6 +27,6 @@
     "min_recording_time": 1,
     "max_recording_time": 60,
     "max_silence_time": 1,
-    "samples_rate" : "32k"
+    "samples_rate" : "32K"
   }
 }

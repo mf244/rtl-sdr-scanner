@@ -95,6 +95,8 @@ def __scan(device, **kwargs):
             logger.debug(sdr.tools.format_frequency_power(int(best_frequencies[i]), float(best_powers[i])))
         if 1 < print_best_frequencies:
             logger.debug("-" * 80)
+    
+
 
 
 def __filter_ranges(**kwargs):
